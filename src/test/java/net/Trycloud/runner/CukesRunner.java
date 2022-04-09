@@ -13,7 +13,8 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt",},
         features = "src/test/resources/features",
         glue = "net/Trycloud/step_defs",
-dryRun = false,
+        dryRun = false,
         publish = true
 )
-public class CukesRunner {}
+public class CukesRunner {
+}
